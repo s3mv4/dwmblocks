@@ -1,6 +1,6 @@
 #!/bin/sh
 
-date="$(date '+%a, %d %b %H:%M')"
+date="$(date '+%a %d %b %H:%M')"
 icon=""
 
 echo "$icon $date"
