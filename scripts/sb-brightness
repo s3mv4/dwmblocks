@@ -2,17 +2,17 @@
 
 bri=$(xbacklight -get)
 
-if [[ $bri -lt 10 ]]; then
+if [[ $bri -lt 15 ]]; then
     icon=""
-elif [[ $bri -lt 20 ]]; then
-    icon=""
 elif [[ $bri -lt 30 ]]; then
+    icon=""
+elif [[ $bri -lt 45 ]]; then
     icon=""
-elif [[ $bri -lt 40 ]]; then
-    icon=""
-elif [[ $bri -lt 50 ]]; then
-    icon=""
 elif [[ $bri -lt 60 ]]; then
+    icon=""
+elif [[ $bri -lt 75 ]]; then
+    icon=""
+elif [[ $bri -lt 90 ]]; then
     icon=""
 else
     icon=""

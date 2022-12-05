@@ -5,9 +5,9 @@ mute=$(pamixer --get-mute)
 
 if [[ $mute == true ]]; then
     icon="ﱝ"
-elif [[ $vol -lt 25 ]]; then
+elif [[ $vol -lt 30 ]]; then
     icon="奄"
-elif [[ $vol -lt 50 ]]; then
+elif [[ $vol -lt 60 ]]; then
     icon="奔"
 else
     icon="墳"
