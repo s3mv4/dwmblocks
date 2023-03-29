@@ -1,0 +1,4 @@
+#!/bin/sh
+ssid=$(iw dev | awk '/ssid/ {for (i=2; i<=NF; i++) print $i}')
+[ -z $ssid ] && icon="󰖪" || icon="󰖩"
+echo "$icon $ssid"
